@@ -2,7 +2,7 @@ import socket
 import threading
 
 # Server settings
-SERVER_HOST = '127.0.0.1'  # Change this to the server's IP address
+SERVER_HOST = input("Enter ip address : ")  # Change this to the server's IP address
 SERVER_PORT = 8080
 
 # Function to receive messages from the server
